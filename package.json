@@ -1,0 +1,19 @@
+{
+  "name": "ezpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanttran/EZpass.git"
+  },
+  "author": "tantran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanttran/EZpass/issues"
+  },
+  "homepage": "https://github.com/tanttran/EZpass#readme"
+}
