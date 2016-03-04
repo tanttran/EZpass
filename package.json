@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tanttran/EZpass/issues"
   },
-  "homepage": "https://github.com/tanttran/EZpass#readme"
+  "homepage": "https://github.com/tanttran/EZpass#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
