@@ -1,8 +1,80 @@
-.navi {
-  
-  height: 80px;
-  width: 100%;
-  background-color: #14192e;
-  
+ul li {
+  text-align: center;
+  list-style: none;
+  display: inline;
+
+}
+
+
+ul li:after {
+  content: "\00b7";
+
+}
+
+ul li:last-child:after {
+  content: none;
+}
+
+.popularCity {
+  font-size: 28px;
+}
+
+
+#workoutTheme {
+
+  background-image: url("../images/fitness-one.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  height: 700px;
+}
+
+#danceTheme {
+
+  background-image: url("../images/fitness-two.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  height: 700px;
+
+}
+
+#bookingTheme {
+
+  background-image: url("../images/fitness-four.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  height: 700px;
+
+}
+
+
+#locationTheme {
+  text-align: center;
+  height: 1000px;
+  color: white;
+  margin-top: -20px;
+  background-color: #252a40;
+}
+
+#selectPlanTheme {
+
+  text-align: center;
+  height: 1000px;
+  margin-top: -20px;
+  color: white;
+  font-size: 28px;
+  background-color: #252a40;
+}
+
+#startingOffer {
+
+  text-align: center;
+  font-size: 32px;
+  height: 150px;
 
 }
