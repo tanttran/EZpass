@@ -1,4 +1,29 @@
-ul li {
+#startingOffer {
+
+  text-align: center;
+  font-size: 32px;
+  height: 150px;
+
+}
+
+#startingOffer li {
+
+  list-style: none;
+  display: inline;
+}
+
+#startingOffer li:after {
+
+  content:  "\00b7";
+}
+
+#startingOffer li:last-child:after {
+
+  content: none;
+}
+
+#popularLocation li {
+
   text-align: center;
   list-style: none;
   display: inline;
@@ -6,12 +31,12 @@ ul li {
 }
 
 
-ul li:after {
+#popularLocation li:after {
   content: "\00b7";
 
 }
 
-ul li:last-child:after {
+#popularLocation li:last-child:after {
   content: none;
 }
 
@@ -71,10 +96,4 @@ ul li:last-child:after {
   background-color: #252a40;
 }
 
-#startingOffer {
 
-  text-align: center;
-  font-size: 32px;
-  height: 150px;
-
-}
