@@ -1,20 +1,79 @@
-#startingOffer {
+.popularCity {
+  font-size: 28px;
+}
 
-  text-align: center;
-  font-size: 32px;
-  height: 150px;
+.main-title {
+  margin-left: 25px;
+}
+
+#ez-slogan {
+  
+  color: white;
+  font-size: 36px;
+  margin-top: 150px;
+}
+
+.img-hover {
+  position: relative;
 
 }
 
-#startingOffer li {
+.caption {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgba(37,42,64,.8);
 
+}
+
+#membership-slogan {
+  margin-top: 25px;
+  font-size: 24px;
+  color: white;
+}
+
+
+#nav-home {
+
+  margin-top: -55px;
+  margin-right: 25px;
+
+}
+
+#nav-register {
+  margin-top: -55px;
+  margin-right: 25px;
+}
+
+#nav-login {
+
+  margin-top: -55px;
+  margin-right: 25px;
+
+}
+
+#startingOffer {
+  margin-top: 25px;
+}
+
+
+#startingOffer li {
   list-style: none;
   display: inline;
+  font-size: 18px;
+  text-align: center;
 }
 
 #startingOffer li:after {
 
   content:  "\00b7";
+  padding: 25px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #startingOffer li:last-child:after {
@@ -40,9 +99,6 @@
   content: none;
 }
 
-.popularCity {
-  font-size: 28px;
-}
 
 
 #workoutTheme {
@@ -52,7 +108,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
-  height: 700px;
+  height: 650px;
+  overflow: hidden;
+
 }
 
 #danceTheme {
@@ -62,7 +120,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
-  height: 700px;
+  height: 650px;
 
 }
 
@@ -73,7 +131,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -20px;
-  height: 700px;
+  height: 650px;
 
 }
 
