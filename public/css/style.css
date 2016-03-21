@@ -6,11 +6,120 @@
   margin-left: 25px;
 }
 
+.ez-five {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.ez-unlimited {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+#select-plan {
+  margin-top: 65px;
+}
+
 #ez-slogan {
   
   color: white;
   font-size: 36px;
   margin-top: 150px;
+}
+
+.ez-main {
+  height: 75px;
+  background-color: #4c4ce1;
+  width: 100%;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin-top: 25px;
+  overflow: hidden;
+
+}
+
+.ez-main-content {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.ez-offer {
+  height: 100px;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.ez-offer-content {
+  padding: 5px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+
+.ez-pricing {
+  height: 100px;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  
+}
+
+.ez-pricing-one {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.ez-pricing-two {
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+
+.ez-class {
+  height: 100px;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.ez-class-one {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.ez-class-two {
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+
+.ez-access {
+  height: 150px;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ez-access-content {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
 }
 
 .img-hover {
@@ -147,11 +256,12 @@
 #selectPlanTheme {
 
   text-align: center;
-  height: 1000px;
+  height: 800px;
   margin-top: -20px;
   color: white;
   font-size: 28px;
   background-color: #252a40;
+  overflow: hidden;
 }
 
 
